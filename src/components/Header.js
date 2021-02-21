@@ -208,7 +208,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function ButtonAppBar(props) {
+export default function Header(props) {
 
     const classes = useStyles();
     const { history } = props;
